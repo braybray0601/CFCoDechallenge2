@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS for to do list */
+body, a, div, p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:12px;
+}
+.wrapper {
+    width: 100%;
+    margin:auto;
+}
+ul {
+    list-style:circle;
+    margin-left: -30px;
+}
+li {
+    color: #333333;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 1px;
+}
+
+input[type=text] {
+    border: 1px dotted #333333;
+}
+input[type=submit] {
+    color:#333333;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input {
+    font-size: 12px;
+    font-color: #333333;
+    border-radius: 8px;
+}
+
+
